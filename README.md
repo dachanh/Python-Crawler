@@ -75,7 +75,16 @@ Some consider I implement in the project:
             }
       ```
    - Response
-     - Http code : 200 
+     - Http code : 200
+     - Body
+     ```
+     	[
+		{
+			'url' : string,
+			'is_internal_url': Boolean
+		}
+	]
+     ```
    
 Furure work:
       There is simple crawler so more inconvenience, below is some the idea to upgrade the application:
