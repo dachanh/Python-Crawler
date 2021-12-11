@@ -1,6 +1,6 @@
 # assignment
 
-Challenge 1 :
+<h2>Challenge 1</h2>
 
 The problem requirement check input string correctly format. The first time we need to delete the unimportant character , just contain the important character ('(',')','['.']','{','}')
 ```
@@ -28,11 +28,8 @@ Example of wrong close bracket:
   [()()[] => The fisrt open bracket don't have any bracket close it so the pattern is wrong
 ```
 In conclusion, the above consider is the same reason it 's different perspective about use close bracket or open bracket. The wrong pattern is when open bracket don 't have any after bracket close it and the close bracket don't have any bracket before open it . the solution of the problem I use a stack, the stack will push all open bracket into it and loop to the string if the current index is close bracket , just check the top element of stack is the bracket same type or it 's not same type return false and after iterator the string we just check the len of stack because the length of stack is not zero , that mean don't have any close bracket fit it.
-```
 
-```
-Challenge 2
-
+<h2>Challenge 2</h2>
 
 The requirements:
 Python3.6 
