@@ -34,10 +34,11 @@ Note: because the problem requirement check bracket, If I clear the client press
 <h2>Challenge 2</h2>
 
 The requirements:
-Python3.6 
-Postgres 
-nginx 
-Install
+```
+	Python3.6 
+	Postgres
+	Nginx
+```
 To convient , I install Postgres by docker 
 ```
 docker run --name postgres-sql -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER testdb -e POSTGRES_DB=crawlerDB -p 5432:5432 -d postgres 
