@@ -33,6 +33,6 @@ if __name__ == "__main__":
     string = input()
     a = list(filter(lambda x : x in ['{','}','(',')','[',']'],list(string)))
     if process(a):
-        print('Right')
+        print('Correct')
     else:
-        print('Wrong')
+        print('Incorrect')
