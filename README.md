@@ -93,6 +93,6 @@ Furure work:
    - Deploy the application use docker 
    - Distributed crawl to achieve high performance
    - Redundant content , use hasher or checksum help dectect deduplication
-   - Cache DNS Resolverm If many request from client go to the website will blocked 
+   - Cache DNS Resolver If many request from client go to the website will blocked 
  
  Above all my implement to complete the asignment, Any inconvenient please contact me with the email: lamnguyent7@gmail.com
