@@ -92,7 +92,7 @@ Furure work:
       There is simple crawler so more inconvenience, below is some the idea to upgrade the application:
    - Deploy the application use docker 
    - Distributed crawl to achieve high performance
-   - Redundant content , use hasher or checksum help dectect deuplication
+   - Redundant content , use hasher or checksum help dectect deduplication
    - Cache DNS Resolverm If many request from client go to the website will blocked 
  
  Above all my implement to complete the asignment, Any inconvenient please contact me with the email: lamnguyent7@gmail.com
