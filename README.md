@@ -7,7 +7,7 @@ The requirements:
 ```
 To convient , I install Postgres by docker 
 ```
-docker run --name postgres-sql -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER testdb -e POSTGRES_DB=crawlerDB -p 5432:5432 -d postgres 
+docker run --name postgres-sql -e POSTGRES_PASSWORD=123456 -e POSTGRES_USER=testdb -e POSTGRES_DB=crawlerDB -p 5432:5432 -d postgres 
 ```
  Database
  
